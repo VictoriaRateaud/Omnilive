@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="69px"
-	 height="149.5px" viewBox="0 0 69 149.5" enable-background="new 0 0 69 149.5" xml:space="preserve">
-<pattern  x="-2340" y="-2726.5" width="120" height="68.121" patternUnits="userSpaceOnUse" id="Nouvelle_nuance_de_motif_1" viewBox="1.947 -68.121 120 68.121" overflow="visible">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="84px"
+	 height="81.129px" viewBox="0 0 84 81.129" enable-background="new 0 0 84 81.129" xml:space="preserve">
+<pattern  x="-2332.5" y="-2760.561" width="120" height="68.121" patternUnits="userSpaceOnUse" id="Nouvelle_nuance_de_motif_1" viewBox="1.947 -68.121 120 68.121" overflow="visible">
 	<g>
 		<polygon fill="none" points="1.947,-68.121 121.947,-68.121 121.947,0 1.947,0 		"/>
 		<g>
@@ -284,27 +284,23 @@
 	<g id="Nouveau_symbole">
 	</g>
 	<g>
-		<g>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M61,89.689c0,17.6-11.803,32-26.5,32
-				c-14.699,0-26.5-14.4-26.5-32V33C8,15.4,19.801,1,34.5,1C49.197,1,61,15.4,61,33V89.689z"/>
-		</g>
-		<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="16" y1="148.5" x2="52" y2="148.5"/>
-		<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="35" y1="148.5" x2="35" y2="129.5"/>
-		<g>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M68,66.5c0,0,0,14.125,0,31.608
-				s-14.983,31.788-33.5,31.788S1,115.592,1,98.108S1,66.5,1,66.5"/>
-		</g>
+		<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M56.5,48.792c0,9.546-6.528,17.356-14.5,17.356
+			c-7.973,0-14.5-7.811-14.5-17.356V18.045C27.5,8.5,34.027,0.689,42,0.689c7.972,0,14.5,7.811,14.5,17.355V48.792z"/>
+		<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="31.5" y1="80.439" x2="51.5" y2="80.439"/>
+		<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="42.5" y1="80.439" x2="42.5" y2="70.439"/>
+		<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M60.5,36.439c0,0,0,7.437,0,16.919
+			S52.043,70.6,42,70.6s-18.5-7.759-18.5-17.241s0-16.919,0-16.919"/>
 		<g>
 			<defs>
-				<path id="SVGID_23_" d="M61,89.689c0,17.6-11.803,32-26.5,32c-14.699,0-26.5-14.4-26.5-32V33C8,15.4,19.801,1,34.5,1
-					C49.197,1,61,15.4,61,33V89.689z"/>
+				<path id="SVGID_24_" d="M56.5,48.792c0,9.546-6.528,17.356-14.5,17.356c-7.973,0-14.5-7.811-14.5-17.356V18.045
+					C27.5,8.5,34.027,0.689,42,0.689c7.972,0,14.5,7.811,14.5,17.355V48.792z"/>
 			</defs>
 			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_23_"  overflow="visible"/>
+				<use xlink:href="#SVGID_24_"  overflow="visible"/>
 			</clipPath>
 			<pattern  id="SVGID_4_" xlink:href="#Nouvelle_nuance_de_motif_1" patternTransform="matrix(1 0 0 1 -110 3.2422)">
 			</pattern>
-			<rect x="-92" y="-25.5" clip-path="url(#SVGID_2_)" fill="url(#SVGID_4_)" width="259" height="182"/>
+			<rect x="-26.5" y="-13.561" clip-path="url(#SVGID_2_)" fill="url(#SVGID_4_)" width="140" height="99"/>
 		</g>
 	</g>
 </g>

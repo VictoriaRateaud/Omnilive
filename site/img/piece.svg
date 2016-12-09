@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="172.105px" height="152px" viewBox="0 0 172.105 152" enable-background="new 0 0 172.105 152" xml:space="preserve">
+	 width="92.723px" height="82px" viewBox="0 0 92.723 82" enable-background="new 0 0 92.723 82" xml:space="preserve">
 <g id="Calque_1_-_copie">
 	<g id="Nouveau_symbole_1_">
 	</g>
@@ -10,82 +10,65 @@
 	</g>
 	<g>
 		<g>
-			
-				<ellipse fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" cx="76.948" cy="16.359" rx="75.948" ry="15.357"/>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M1,16.359v21.186
-				c0,0,12.956,15.529,75.948,15.529c62.991,0,75.948-15.979,75.948-15.979V16.359"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="16.919" y1="25.769" x2="16.919" y2="45.839"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="31.893" y1="28.723" x2="31.893" y2="49.561"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="46.072" y1="30.395" x2="46.072" y2="51.59"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="60.5" y1="31.717" x2="60.5" y2="52.688"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="76.948" y1="31.717" x2="76.948" y2="53.074"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="95.156" y1="31.717" x2="95.156" y2="52.584"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="108.659" y1="30.395" x2="108.659" y2="51.454"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="123.287" y1="28.723" x2="123.287" y2="49.209"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="136.978" y1="25.769" x2="136.978" y2="45.317"/>
+			<ellipse fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" cx="41.506" cy="9.191" rx="40.506" ry="8.19"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M1,9.191v11.3c0,0,6.91,8.281,40.506,8.281
+				s40.506-8.521,40.506-8.521V9.191"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="9.49" y1="14.21" x2="9.49" y2="24.914"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="17.477" y1="15.785" x2="17.477" y2="26.899"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="25.039" y1="16.677" x2="25.039" y2="27.981"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="32.733" y1="17.382" x2="32.733" y2="28.567"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="41.506" y1="17.382" x2="41.506" y2="28.772"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="51.217" y1="17.382" x2="51.217" y2="28.512"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="58.418" y1="16.677" x2="58.418" y2="27.909"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="66.22" y1="15.785" x2="66.22" y2="26.712"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="73.521" y1="14.21" x2="73.521" y2="24.636"/>
 		</g>
 		<g>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M148.812,40.292
-				c13.772,2.78,22.294,6.624,22.294,10.87c0,8.482-34.004,15.357-75.949,15.357s-75.948-6.875-75.948-15.357
-				c0-1.35,0.86-2.657,2.475-3.904"/>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M19.208,51.162v21.187
-				c0,0,12.957,15.528,75.948,15.528s75.949-15.979,75.949-15.979V51.162"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="35.126" y1="60.571" x2="35.126" y2="80.643"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="50.101" y1="63.526" x2="50.101" y2="84.363"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="64.28" y1="65.198" x2="64.28" y2="86.394"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="78.707" y1="66.52" x2="78.707" y2="87.492"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="95.156" y1="66.52" x2="95.156" y2="87.877"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="113.364" y1="66.52" x2="113.364" y2="87.386"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="126.867" y1="65.198" x2="126.867" y2="86.258"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="141.494" y1="63.526" x2="141.494" y2="84.011"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="155.186" y1="60.571" x2="155.186" y2="80.121"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M79.832,21.956
+				c7.346,1.482,11.891,3.532,11.891,5.797c0,4.524-18.135,8.191-40.506,8.191s-40.506-3.667-40.506-8.191
+				c0-0.72,0.459-1.417,1.32-2.082"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M10.711,27.753v11.3c0,0,6.91,8.282,40.506,8.282
+				s40.506-8.522,40.506-8.522v-11.06"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="19.2" y1="32.771" x2="19.2" y2="43.476"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="27.188" y1="34.348" x2="27.188" y2="45.46"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="34.75" y1="35.239" x2="34.75" y2="46.543"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="42.443" y1="35.944" x2="42.443" y2="47.129"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="51.217" y1="35.944" x2="51.217" y2="47.335"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="60.928" y1="35.944" x2="60.928" y2="47.072"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="68.129" y1="35.239" x2="68.129" y2="46.471"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="75.93" y1="34.348" x2="75.93" y2="45.272"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="83.232" y1="32.771" x2="83.232" y2="43.198"/>
 		</g>
 		<g>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M152.896,81.879
-				c0,8.482-34.003,15.359-75.948,15.359S1,90.361,1,81.879c0-3.809,6.856-7.293,18.208-9.978"/>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M1,81.879v21.188
-				c0,0,12.956,15.528,75.948,15.528c62.991,0,75.948-15.979,75.948-15.979V81.169"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="16.919" y1="91.288" x2="16.919" y2="111.359"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="31.893" y1="94.244" x2="31.893" y2="115.08"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="46.072" y1="95.915" x2="46.072" y2="117.11"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="60.5" y1="97.238" x2="60.5" y2="118.21"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="76.948" y1="97.238" x2="76.948" y2="118.595"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="95.156" y1="97.238" x2="95.156" y2="118.104"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="108.659" y1="95.915" x2="108.659" y2="116.975"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="123.287" y1="94.244" x2="123.287" y2="114.728"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="136.978" y1="91.288" x2="136.978" y2="110.838"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M82.012,44.136
+				c0,4.523-18.135,8.191-40.506,8.191S1,48.659,1,44.136c0-2.031,3.656-3.89,9.711-5.322"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M1,44.136v11.3c0,0,6.91,8.282,40.506,8.282
+				s40.506-8.523,40.506-8.523V43.757"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="9.49" y1="49.153" x2="9.49" y2="59.858"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="17.477" y1="50.73" x2="17.477" y2="61.843"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="25.039" y1="51.621" x2="25.039" y2="62.926"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="32.733" y1="52.327" x2="32.733" y2="63.512"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="41.506" y1="52.327" x2="41.506" y2="63.718"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="51.217" y1="52.327" x2="51.217" y2="63.455"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="58.418" y1="51.621" x2="58.418" y2="62.853"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="66.22" y1="50.73" x2="66.22" y2="61.655"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="73.521" y1="49.153" x2="73.521" y2="59.58"/>
 		</g>
 		<g>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M148.794,105.698
-				c8.19,2.451,12.972,5.405,12.972,8.586c0,8.483-34.004,15.359-75.949,15.359c-41.944,0-75.948-6.876-75.948-15.359
-				c0-1.508,1.074-2.964,3.078-4.342"/>
-			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M9.868,114.284v21.188
-				c0,0,12.957,15.527,75.948,15.527s75.949-15.978,75.949-15.978v-20.738"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="25.787" y1="123.694" x2="25.787" y2="143.766"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="40.761" y1="126.65" x2="40.761" y2="147.486"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="54.941" y1="128.321" x2="54.941" y2="149.517"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="69.368" y1="129.644" x2="69.368" y2="150.616"/>
-			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="85.816" y1="129.644" x2="85.816" y2="151"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="104.024" y1="129.644" x2="104.024" y2="150.51"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="117.527" y1="128.321" x2="117.527" y2="149.381"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="132.155" y1="126.65" x2="132.155" y2="147.134"/>
-			
-				<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="145.846" y1="123.694" x2="145.846" y2="143.244"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M79.823,56.839
+				c4.368,1.308,6.919,2.883,6.919,4.579c0,4.524-18.137,8.192-40.507,8.192S5.729,65.942,5.729,61.418
+				c0-0.804,0.573-1.581,1.642-2.315"/>
+			<path fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" d="M5.729,61.418v11.301
+				c0,0,6.911,8.281,40.506,8.281s40.507-8.521,40.507-8.521V61.418"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="14.22" y1="66.437" x2="14.22" y2="77.142"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="22.205" y1="68.014" x2="22.205" y2="79.126"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="29.769" y1="68.905" x2="29.769" y2="80.209"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="37.463" y1="69.61" x2="37.463" y2="80.796"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="46.235" y1="69.61" x2="46.235" y2="81"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="55.946" y1="69.61" x2="55.946" y2="80.738"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="63.148" y1="68.905" x2="63.148" y2="80.137"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="70.949" y1="68.014" x2="70.949" y2="78.938"/>
+			<line fill="none" stroke="#CB432D" stroke-width="2" stroke-miterlimit="10" x1="78.251" y1="66.437" x2="78.251" y2="76.863"/>
 		</g>
 	</g>
 </g>

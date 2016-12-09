@@ -93,11 +93,17 @@
       return this.clear()
     }
 
+    
+
     for (i = offsets.length; i--;) {
       activeTarget != targets[i]
-        && scrollTop >= offsets[i]
+        && ( scrollTop >= offsets[i] || ( i == offsets.length - 1 && scrollTop >= offsets[i] - 150) )
         && (offsets[i + 1] === undefined || scrollTop < offsets[i + 1])
         && this.activate(targets[i])
+
+      if( i == offsets.length - 1 && scrollTop >= offsets[i] - 150){
+        i--;
+      }
     }
   }
 

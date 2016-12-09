@@ -1,3 +1,6 @@
+/*=====================================*/
+/************** IMPORTS **************/
+/*=====================================*/
 /*! 
  * Bootstrap simplified by Victoria Rateaud
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -478,7 +481,7 @@ img
         width: 970px;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .container
     {
@@ -1215,7 +1218,7 @@ img
         margin-left: 0;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .col-lg-1,
     .col-lg-2,
@@ -4705,7 +4708,7 @@ and .visible-lg as of v3.2.0 .visible-xs,
         display: inline-block !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1599px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .visible-md
     {
@@ -4725,28 +4728,28 @@ and .visible-lg as of v3.2.0 .visible-xs,
         display: table-cell !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1599px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .visible-md-block
     {
         display: block !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1599px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .visible-md-inline
     {
         display: inline !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1599px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .visible-md-inline-block
     {
         display: inline-block !important;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .visible-lg
     {
@@ -4766,21 +4769,21 @@ and .visible-lg as of v3.2.0 .visible-xs,
         display: table-cell !important;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .visible-lg-block
     {
         display: block !important;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .visible-lg-inline
     {
         display: inline !important;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .visible-lg-inline-block
     {
@@ -4801,14 +4804,14 @@ and .visible-lg as of v3.2.0 .visible-xs,
         display: none !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1599px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .hidden-md
     {
         display: none !important;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .hidden-lg
     {
@@ -5069,7 +5072,7 @@ and .visible-lg as of v3.2.0 .visible-xs,
         order: 1;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .start-lg
     {
@@ -5691,7 +5694,7 @@ and .visible-lg as of v3.2.0 .visible-xs,
         margin-left: 91.66666667%;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .row-flex .container
     {
@@ -8950,8 +8953,12 @@ and .visible-lg as of v3.2.0 .visible-xs,
     height: auto;
     margin: 0;
 }
+/*=====================================*/
 /************** VARIABLES **************/
-/********** RESET **********/
+/*=====================================*/
+/*=====================================*/
+/************** RESET **************/
+/*=====================================*/
 @media (min-width: 768px)
 {
     .container-fluid
@@ -8961,7 +8968,7 @@ and .visible-lg as of v3.2.0 .visible-xs,
         padding-left: 7%;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .container-fluid
     {
@@ -9015,6 +9022,15 @@ and .visible-lg as of v3.2.0 .visible-xs,
     outline: none !important;
     box-shadow: none !important;
 }
+.form-primary
+{
+    border-color: #cb432d;
+}
+.form-primary:hover,
+.form-primary:focus
+{
+    border-color: #a13524;
+}
 .btn-default
 {
     font-family: 'Open Sans', sans-serif;
@@ -9040,10 +9056,6 @@ and .visible-lg as of v3.2.0 .visible-xs,
     border-color: #ccc;
     background-color: transparent;
 }
-.ls-0
-{
-    letter-spacing: 0;
-}
 img
 {
     display: block;
@@ -9052,7 +9064,13 @@ img
     height: auto;
     margin: 0 auto;
 }
-/********** CLASSES GENERALES **********/
+/*=====================================*/
+/*************** HELPERS ***************/
+/*=====================================*/
+.ls-0
+{
+    letter-spacing: 0;
+}
 .text-justify
 {
     text-align: justify;
@@ -9066,6 +9084,39 @@ img
     min-height: 720px;
     min-height: calc(100vh - 50px);
 }
+.bgc-blue
+{
+    background-color: #f4f5f6;
+}
+/*margin/padding */
+.mb
+{
+    margin-bottom: 2rem;
+}
+.mb-light
+{
+    margin-bottom: 1.5rem;
+}
+.mb-heavy
+{
+    margin-bottom: 9rem;
+}
+.slide-focus
+{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+@media (min-width: 768px)
+{
+    .slide-focus
+    {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+/*=====================================*/
+/**************** CLASS ****************/
+/*=====================================*/
 .roundedImage
 {
     overflow: hidden;
@@ -9075,19 +9126,6 @@ img
     border: 4px #eee solid;
     border-radius: 100px;
 }
-.bgc-blue
-{
-    background-color: #f4f5f6;
-}
-.form-primary
-{
-    border-color: #cb432d;
-}
-.form-primary:hover,
-.form-primary:focus
-{
-    border-color: #a13524;
-}
 .testimony
 {
     font-size: 1.3rem;
@@ -9095,6 +9133,7 @@ img
 
     width: 90vw;
     margin: 0 auto;
+    margin-bottom: 9rem;
 
     text-align: center;
 }
@@ -9124,33 +9163,29 @@ img
         font-weight: lighter;
     }
 }
-/************ margins/paddings **************/
-.mb
+.leader
 {
-    margin-bottom: 2rem;
-}
-.mb-light
-{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+
     margin-bottom: 1.5rem;
-}
-.mb-heavy
-{
-    margin-bottom: 9rem;
-}
-.slide-focus
-{
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+
+    letter-spacing: .7px;
+
+    color: #666;
 }
 @media (min-width: 768px)
 {
-    .slide-focus
+    .leader
     {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+        font-size: 2rem;
+
+        margin-bottom: 1.5rem;
     }
 }
-/************ CSS GENERAL **************/
+/*=====================================*/
+/************* CSS GENERAL *************/
+/*=====================================*/
 /*typographies*/
 body
 {
@@ -9213,93 +9248,9 @@ h3
         font-size: 2.2rem;
     }
 }
-.leader
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
-
-    margin-bottom: 1.5rem;
-
-    letter-spacing: .7px;
-
-    color: #666;
-}
-@media (min-width: 768px)
-{
-    .leader
-    {
-        font-size: 2rem;
-
-        margin-bottom: 1.5rem;
-    }
-}
-/*********** DEPART DU CSS *************/
-body
-{
-    padding-top: 50px;
-}
-header .navbar-brand
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    font-weight: 300;
-}
-header ul.navbar-nav li a
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-
-    letter-spacing: .7px;
-    text-transform: uppercase;
-}
-@media (min-width: 768px)
-{
-    header ul.navbar-nav li a
-    {
-        font-size: 1rem;
-
-        padding: 15px 8px;
-
-        letter-spacing: 0;
-    }
-}
-@media (min-width: 1600px)
-{
-    header ul.navbar-nav li a
-    {
-        font-size: 1.2rem;
-
-        padding: 15px 25px;
-
-        letter-spacing: .7px;
-    }
-}
-#landing
-{
-    background: url('../img/omnilive.jpg') no-repeat;
-    background-size: cover;
-}
-#landing .container-fluid
-{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-@media (min-width: 768px)
-{
-    #landing .container-fluid article .text-landing
-    {
-        text-align: left;
-    }
-}
-#landing .container-fluid article p
-{
-    color: #fff;
-}
-#reference > div:first-child
-{
-    margin-bottom: 9rem;
-}
+/*=====================================*/
+/*************** CAROUSEL **************/
+/*=====================================*/
 .carousel
 {
     display: -webkit-box;
@@ -9309,7 +9260,7 @@ header ul.navbar-nav li a
         flex-direction: row;
 
     box-sizing: border-box;
-    min-height: 245px;
+    min-height: 265px;
     margin-right: -.5rem;
     margin-left: -.5rem;
 
@@ -9871,7 +9822,7 @@ header ul.navbar-nav li a
         margin-left: 91.66666667%;
     }
 }
-@media (min-width: 1600px)
+@media (min-width: 1200px)
 {
     .carousel .container
     {
@@ -10059,7 +10010,7 @@ header ul.navbar-nav li a
 {
     overflow: hidden;
 
-    max-height: 240px;
+    max-height: 265px;
     padding: 25px 15px;
 
     -webkit-transition: all .3s ease-in-out;
@@ -10166,7 +10117,15 @@ header ul.navbar-nav li a
 .carousel > li.items .baseline p
 {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     font-weight: 700;
+}
+@media (min-width: 768px)
+{
+    .carousel > li.items .baseline p
+    {
+        font-size: 1.5rem;
+    }
 }
 .carousel > li.items .list-unstyled
 {
@@ -10198,6 +10157,113 @@ header ul.navbar-nav li a
 
     color: #666;
 }
+/*=====================================*/
+/************* DEPART CSS **************/
+/*=====================================*/
+body
+{
+    position: relative;
+
+    padding-top: 50px;
+}
+header .navbar-brand
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
+header ul.navbar-nav li:hover:after,
+header ul.navbar-nav li:focus:after
+{
+    position: absolute;
+    right: 92%;
+    bottom: 7px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+}
+@media (min-width: 768px)
+{
+    header ul.navbar-nav li:hover:after,
+    header ul.navbar-nav li:focus:after
+    {
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+
+        border-width: 5px 5px 0 5px;
+        border-style: solid;
+        border-color: #cb422d transparent transparent transparent;
+    }
+}
+@media (min-width: 768px)
+{
+    header ul.navbar-nav li:hover:after,
+    header ul.navbar-nav li:focus:after,
+    header ul.navbar-nav li:hover:focus,
+    header ul.navbar-nav li:focus:focus
+    {
+        right: 47%;
+        bottom: 7px;
+    }
+}
+header ul.navbar-nav li .navbar-hover
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    letter-spacing: .7px;
+    text-transform: uppercase;
+}
+@media (min-width: 768px)
+{
+    header ul.navbar-nav li .navbar-hover
+    {
+        font-size: 1rem;
+
+        padding: 15px 8px;
+
+        letter-spacing: 0;
+    }
+}
+@media (min-width: 1200px)
+{
+    header ul.navbar-nav li .navbar-hover
+    {
+        font-size: 1.1rem;
+
+        padding: 15px 25px;
+
+        letter-spacing: .7px;
+    }
+}
+#landing
+{
+    background: url('../img/omnilive.jpg') no-repeat;
+    background-size: cover;
+}
+#landing .container-fluid
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media (min-width: 768px)
+{
+    #landing .container-fluid article .text-landing
+    {
+        text-align: left;
+    }
+}
+#landing .container-fluid article p
+{
+    color: #fff;
+}
+#reference > div:first-child
+{
+    margin-bottom: 9rem;
+}
 #experience figure
 {
     margin-bottom: 9rem;
@@ -10210,30 +10276,41 @@ header ul.navbar-nav li a
 }
 #contact1
 {
-    background: url('../img/slide.jpg') no-repeat;
-    background-size: cover;
-}
-#contact2
-{
-    background: url('../img/slide.jpg') no-repeat;
-    background-size: cover;
-}
-.slide
-{
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
 
-    text-align: center;
-
-    color: #fff;
+    background: url('../img/slide.jpg') no-repeat;
+    background-size: cover;
 }
 @media (min-width: 768px)
 {
-    .slide
+    #contact1
     {
         padding-top: 12rem;
         padding-bottom: 12rem;
     }
+}
+#contact2
+{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+
+    background: url('../img/slide.jpg') no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px)
+{
+    #contact2
+    {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+.slide
+{
+    text-align: center;
+
+    color: #fff;
 }
 .slide p:first-child
 {
@@ -10292,14 +10369,15 @@ header ul.navbar-nav li a
 }
 #fonction .slide-focus img
 {
-    max-width: 50%;
+    max-width: 100%;
     padding: 0 15px;
 }
 @media (min-width: 768px)
 {
     #fonction .slide-focus img
     {
-        max-width: 100%;
+        width: 100%;
+        margin-right: 4rem;
         padding: 0;
     }
 }
@@ -10307,10 +10385,23 @@ header ul.navbar-nav li a
 {
     text-align: center;
 }
+#fonction .slide-focus article .mb-xs
+{
+    margin-bottom: 3rem;
+}
+@media (min-width: 768px)
+{
+    #fonction .slide-focus article .mb-xs
+    {
+        margin-bottom: 0;
+    }
+}
 @media (min-width: 768px)
 {
     #fonction .slide-focus article
     {
+        margin-bottom: 0;
+
         text-align: left;
     }
 }
@@ -10391,7 +10482,7 @@ footer div[class^='col-'] label,
 footer div[class^='col-'] .h3
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 700;
 
     display: block;
