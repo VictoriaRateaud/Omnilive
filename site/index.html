@@ -5,24 +5,39 @@
 		<meta name="description" content="description du site, visible dans les résultats des moteurs de recherches, qui donne envie de cliquer"/>
 		<meta name="keywords" content="mots, clés, séparés, de, virgules"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="author" content="mettre l'auteur du site'"/>
+		<meta name="author" content="mettre l'auteur du site"/>
 		<title>Omnilive</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i%7CRoboto+Slab:700%7CRoboto:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<!-- micro data JSON http://schema.org/docs/schemas.html -->
+		<script type="application/ld+json">
+			{
+			  "@context": "http://schema.org",
+			  "@type": "Organization",
+			  "address": {
+			    "@type": "PostalAddress",
+			    "addressLocality": "Paris, France",
+			    "postalCode": "F-75018",
+			    "streetAddress": "46-48 rue René Clair"
+			  },
+			  "email": "mail(at)current.fr",
+			  "telephone": "( 33 6) 15 73 17 97",
+			  "name": "Omnilive",
+			  "description": "TO DO !!!"
+			}
+		</script>
 		<!-- rend IE6 IE7 et IE 8 compatibles avec les balises HTML5 -->
 		<!--[if lte IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
 
-	<body data-spy="scroll">
-		<header data-target="#nav-spy">
+	<body>
+		<header>
 			<nav class="navbar navbar-default navbar-fixed-top" id="nav-spy">
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 			        <span class="sr-only">Barre de Navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -32,13 +47,13 @@
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <div class="collapse navbar-collapse" id="navbar-collapse">
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a class="navbar-hover js-scrollTo" href="#reference">nos références</a></li>
-			        <li><a class="navbar-hover js-scrollTo" href="#experience">l'expérience omnilive</a></li>
-			        <li><a class="navbar-hover js-scrollTo" href="#fonction">comment ça marche ?</a></li>
-			        <li><a class="navbar-hover js-scrollTo" href="#contact">nous contacter</a></li>
-			        <li><a class="navbar-hover js-scrollTo" href="#"><span>FR</span>/EN</a></li>    
+			        <li><a class="scrollTo" href="#reference">nos références</a></li>
+			        <li><a class="scrollTo" href="#experience">l'expérience omnilive</a></li>
+			        <li><a class="scrollTo" href="#fonction">comment ça marche ?</a></li>
+			        <li><a class="scrollTo" href="#contact2">nous contacter</a></li>
+			        <li><a class="scrollTo" href="#"><span>FR</span>/EN</a></li>    
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -46,16 +61,16 @@
 		</header>
 		<section id="landing" class="fullheight column-flex center-xs mb-heavy"> <!-- landing page -->
 			<div class="container-fluid">
-				<article class="row-flex">
-					<div class="column-flex col-xs-12 col-sm-4 between-sm text-landing">
-						<h1 class="mb-light">Omnilive</h1>
-							<div class="mb-light">
+				<article class="row-flex middle-sm">
+					<div class="col-xs-12 col-md-4 between-sm text-landing">
+						<h1 class="mb-sm">Omnilive</h1>
+							<div class="mb-sm">
 								<h2 class="mb-light">Numérisez vos cours rapidement</h2>
 								<p>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis.</p>
 							</div>
 						<!-- Button trigger modal -->
 						<p>
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Demandez votre démo</button>
+							<button type="button" class="btn btn-default animated pulse-delayed infinite" data-toggle="modal" data-target="#myModal"> Demandez votre démo</button>
 						</p>
 						<!-- Modal -->
 						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -89,7 +104,7 @@
 						  </div>
 						</div> <!-- FIN modal -->
 					</div>
-					<div class="first-xs col-xs-12 last-sm col-sm col-sm-offset-1">
+					<div class="first-xs col-xs-12 last-md col-md col-md-offset-1 mb-heavy-max">
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ndHDteXRFXA"></iframe>
 						</div>
@@ -199,7 +214,7 @@
 			<p class="author">Philippe D'arco - Directeur du CPM Pierre et Marie Curie</p>
 		</blockquote>
 		<section id="experience" class="container-fluid"> <!-- utilisabilité -->
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<figure class="col-sm-6 pin-after">
 					<img class="roundedImage" src="img/utilisability.jpg" alt="#">
 					<figcaption>
@@ -209,7 +224,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<figure class="col-sm-offset-6 col-sm-6 pin-before">
 					<img class="roundedImage" src="img/utilisability.jpg" alt="#">
 					<figcaption>
@@ -219,7 +234,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<figure class="col-sm-6 pin-after">
 					<img class="roundedImage" src="img/utilisability.jpg" alt="#">
 					<figcaption>
@@ -229,7 +244,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<figure class="col-sm-offset-6 col-sm-6 pin-before">
 					<img class="roundedImage" src="img/utilisability.jpg" alt="#">
 					<figcaption>
@@ -244,58 +259,82 @@
 			<div class="slide container-fluid">
 				<p>Omnilive, c'est regarder une vidéo avec les yeux,</p>
 				<p>mais aussi la vivre avec les pouces.</p>
-				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> <!-- Button trigger modal -->
+				<button type="button" class="btn btn-default animated pulse-delayed infinite" data-toggle="modal" data-target="#myModal"> <!-- Button trigger modal -->
 				  Demandez votre démo
 				</button>
 			</div>
 		</section> <!-- FIN slide contact -->
-		<section id="fonction" class="mb-heavy"> <!-- avantages -->
-			<div class="slide-focus container-fluid">
-				<article class="row-flex">
-					<div class="col-xs-12 col-sm-4">
+		<section id="fonction" class="mb-heavy overflow-hidden"> <!-- avantages -->
+			<div class="slide-focus container-fluid wow fadeInRightBig">
+				<article class="row-flex middle-xs">
+					<div class="col-xs-12 col-sm-5">
 						<h3>Un système léger</h3>
 						<p class="leader">Captation vidéo et son</p>
 						<p>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis, amicitias esse.</p>
 					</div>
-					<div class="col-xs-12 col-sm-5 col-sm-offset-3 middle-sm row-flex around-sm mb-xs">
-						<img src="img/camera.svg" alt="caméra">
-						<img src="img/micro.svg" alt="microphone">
+					<div class="col-xs-12 col-sm col-sm-offset-2 mb-xs">
+						<div class="row-flex around-xs">	
+							<div class="col-xs">
+								<img class="img-grow" src="img/camera.svg" alt="caméra">
+							</div>
+							<div class="col-xs">
+								<img class="img-grow" src="img/micro.svg" alt="microphone">
+							</div>
+						</div>
 					</div>
 				</article>
 			</div>
-			<div class="bgc-blue slide-focus container-fluid">
-				<article class="row-flex">
-					<div class="col-xs-12 col-sm-5 row-flex around-sm mb-xs">
-						<img src="img/chrono.svg" alt="chronomètre">
-						<img src="img/dashboard.svg" lang="en" alt="dashboard">
+			<div class="bgc-blue slide-focus container-fluid wow fadeInLeftBig">
+				<article class="row-flex middle-xs">
+					<div class="col-xs-12 col-sm mb-xs">
+						<div class="row-flex around-xs">	
+							<div class="col-xs">
+								<img class="img-grow" src="img/chrono.svg" alt="chronomètre">
+							</div>
+							<div class="col-xs">
+								<img class="img-grow" src="img/dashboard.svg" alt="dashborard">
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-sm-offset-3">
+					<div class="col-xs-12 col-sm-5 col-sm-offset-2">
 						<h3>Ergonomique</h3>
 						<p class="leader">Back office de gestion de vidéo</p>
 						<p>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis, amicitias esse.</p>
 					</div>
 				</article>
 			</div>
-			<div class="slide-focus container-fluid">
-				<article class="row-flex">
-					<div class="col-xs-12 col-sm-4">
+			<div class="slide-focus container-fluid wow fadeInRightBig">
+				<article class="row-flex middle-xs">
+					<div class="col-xs-12 col-sm-5">
 						<h3>Économique</h3>
 						<p class="leader">Suppression du coût de post-production</p>
 						<p>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis, amicitias esse.</p>
 					</div>
-					<div class="col-xs-12 col-sm-5 col-sm-offset-3 row-flex around-sm mb-xs">
-						<img src="img/graphic.svg" alt="courbe graphique vers le haut">
-						<img src="img/piece.svg" alt="lot de pièces">
+					<div class="col-xs-12 col-sm col-sm-offset-2 mb-xs">
+						<div class="row-flex around-xs">	
+							<div class="col-xs">
+								<img class="img-grow" src="img/graphic.svg" alt="courbe graphique vers le haut">
+							</div>
+							<div class="col-xs">
+								<img class="img-grow" src="img/piece.svg" alt="lot de pièces">
+							</div>
+						</div>
 					</div>
 				</article>
 			</div>
-			<div class="bgc-blue slide-focus container-fluid">
-				<article class="row-flex">
-					<div class="col-xs-12 col-sm-5 row-flex around-sm mb-xs">
-						<img src="img/publier.svg" alt="publication de la vidéo">
-						<img src="img/lecteur.svg" alt="lecteur ouvert sur une tablette tactile">
-					</div>
-					<div class="col-xs-12 col-sm-4 col-sm-offset-3">
+			<div class="bgc-blue slide-focus container-fluid wow fadeInLeftBig">
+				<article class="row-flex middle-xs">
+					<div class="col-xs-12 col-sm mb-xs">
+						<div class="row-flex around-xs">	
+							<div class="col-xs">
+								<img class="img-grow" src="img/publier.svg" alt="publication de la vidéo">
+							</div>
+							<div class="col-xs">
+								<img class="img-grow" src="img/lecteur.svg" alt="lecteur ouvert sur une tablette tactile">
+							</div>
+						</div>
+					</div>					
+					<div class="col-xs-12 col-sm-5 col-sm-offset-2">
 						<h3>Rapide</h3>
 						<p class="leader">Publication dans votre LMS</p>
 						<p>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis, amicitias esse.</p>
@@ -311,25 +350,25 @@
 			<div class="slide container-fluid">
 				<p>Envoyez nous quelques unes de vos vidéos,</p>
 				<p>et on en fait une démo !</p>
-				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> <!-- Button trigger modal -->
+				<button type="button" class="btn btn-default animated pulse-delayed infinite" data-toggle="modal" data-target="#myModal"> <!-- Button trigger modal -->
 				  Demandez votre démo
 				</button>
 			</div>
 		</section> <!-- FIN slide contact -->
 		<footer class="container-fluid">
 			<div class="row-flex">
-				<div class="col-xs-12 col-md">
+				<div class="col-xs-12 col-md-12 col-lg-3">
 					<a class=" js-scrollTo" href="#"><h1>Omnilive</h1></a>
 					<p class="small ls-0">&copy; 2016 Omnilive est un logiciel breveté développé et édité par Current Productions </p>
 				</div> <!-- omnilive -->
-				<div class="col-xs-12 col-md-2 column-flex center-sm">
+				<div class="col-xs-12 col-md col-lg-2 column-flex center-sm">
 					<ul>
 						<li><a href="#">CGV</a></li>
 						<li><a href="#">Confidentialité</a></li>
 						<li><a href="#">Mentions légales</a></li>
 					</ul>
 				</div> <!-- CGV -->
-				<div class="col-xs-12 col-md-2">
+				<div class="col-xs-12 col-md col-lg-2">
 					<p class="h3">Contactez-nous</p>
 					<address class="small">
 						Bureau 109<br>
@@ -339,9 +378,9 @@
 					<a class="mail" href="mailto:&#109;&#97;i%6c&#64;cur%72%65n%74%2ef&#114;">mail&#64;current.fr</a>
 					<a class="tel" href="tel:+33615731797"> 06 15 73 17 97 </a> 
 				</div> <!-- contact -->
-				<div class="col-xs-12 col-md-2">
+				<div class="col-xs-12 col-md col-lg-2">
 					<p class="h3">Suivez nous</p>
-						<ul>
+						<ul class="list-social">
 							<li>
 								<i class="fa fa-linkedin" aria-hidden="true"></i>
 								<a class="linkedin" href="#" title="ouvrir un nouvel onglet vers le profil linkedin d'omnilive" target="_blank">Linkedin</a>
@@ -356,17 +395,24 @@
 							</li>
 						</ul>
 				</div> <!-- RS -->
-				<div class="col-xs-12 col-md-3">
-					<form>
-						<div class="form-group">
-							<label for="news">Newsletter</label>
+				<div class="col-xs-12 col-md col-lg">
+					<form action="//omnilive.us6.list-manage.com/subscribe/post?u=85fb1be57ae68455362422f58&amp;id=6d2a4a1dff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div class="form-group" id="mc_embed_signup_scroll">
+							<label for="mce-EMAIL">Newsletter</label>
 							<p class="small">Toute l’actualité dans votre boite c’est trop cool</p>
-							<div class="input-group">
-								<input type="email" class="form-control form-primary" id="news" placeholder="Email">
+							<div class="input-group mc-field-group">
+								<input type="email" value="" name="EMAIL" class="required email form-control form-primary" id="mce-EMAIL" placeholder="Email">
 								<span class="input-group-btn">
-									<button type="submit" class="btn btn-primary">OK</button>
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" name="b_85fb1be57ae68455362422f58_6d2a4a1dff" tabindex="-1" value="">
+									</div>
+									<input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
 								</span>
 							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div> 
 						</div>
 					</form>
 				</div> <!-- newsletter -->
@@ -378,6 +424,14 @@
 		<script type="text/javascript" src="js/modal.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 		<script type="text/javascript" src="js/scrollspy.js"></script>
-		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script type="text/javascript" src="js/scrollto.js"></script>
+		<script type="text/javascript" src="js/wow.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			new WOW().init();
+			$('body').scrollspy({selector:'.scrollTo',offset:50});
+			$('.scrollTo').click(function(){$('body').scrollTo($(this).attr('href'),{duration:500,offset:-50});});
+		});
+		</script>
 	</body>
 </html>

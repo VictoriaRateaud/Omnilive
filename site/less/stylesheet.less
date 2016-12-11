@@ -5,11 +5,12 @@
 @import "bootstrap/bootstrap.less";
 @import "flex.less";
 @import "font-awesome/font-awesome.less";
+@import "animate/animate.less";
 
 /*=====================================*/
 /************** VARIABLES **************/
 /*=====================================*/
-
+@screen-lg-min: 1600px;
 @grey-dark: #3A3A3A;
 @grey: #666;
 @greyLight: #eee;
@@ -83,7 +84,9 @@ img {
 /*=====================================*/
 /*************** HELPERS ***************/
 /*=====================================*/
-
+.overflow-hidden {
+  overflow: hidden;
+}
 .ls-0 {
   letter-spacing: 0;
 }
@@ -104,13 +107,35 @@ img {
 /*margin/padding */
 
 .mb { 
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 .mb-light {
   margin-bottom: 1.5rem;
 }
 .mb-heavy {
   margin-bottom: 9rem;
+}
+@media (max-width: @screen-sm-min){
+  .mb-max { 
+    margin-bottom: 3.5rem;
+  }
+  .mb-light-max {
+    margin-bottom: 1.5rem;
+  }
+  .mb-heavy-max {
+    margin-bottom: 9rem;
+  }
+}
+@media (min-width: @screen-sm-min){
+  .mb-sm { 
+    margin-bottom: 3.5rem;
+  }
+  .mb-light-sm {
+    margin-bottom: 1.5rem;
+  }
+  .mb-heavy-sm {
+    margin-bottom: 9rem;
+  }
 }
 .slide-focus {
   padding-top: 4.5rem;
@@ -217,15 +242,15 @@ h3 {
 /*=====================================*/
 
 .carousel {
-  .row-flex();
   min-height: 265px;
 
   & > li.items {
     border: 1px @greyLight solid;
     padding: 25px 15px;
+    float: left;
+    display: inline-block;
+    position: absolute;
     background-color: white;
-    flex-basis: 0;
-    flex-grow: 1;
     .transition(all .3s ease-in-out);
     overflow: hidden;
     max-height: 265px;
@@ -234,32 +259,49 @@ h3 {
     }
   
     &.main-pos {
-      order: 0;
       z-index: 20;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 90%;
+      max-height: none;
+      @media (min-width:@screen-md-min) {
+        width: 33.33333333%;
+        max-height: 265px;
+      }
       &:hover {
         cursor: default;
       }
     }
     &.left-pos {
-      order: -1;
       opacity: .3;
       z-index: 10;
-      transform: scale(.75);
+      left: 1em;
+      transform: scale(0);
+      width: 0;
+      @media (min-width:@screen-md-min) {
+        transform: scale(.85);
+        width: 33.33333333%;
+      }
       margin-right: -35px;
       box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.52);
     }
     &.back-pos {
-      order: 0;
       padding: 0;
-      flex-grow: 0;
-      opacity: .05;
-      transform: scale(.5);
+      .square(0);
+      opacity: 0;
+      transform: scale(0);
     }
     &.right-pos {
-      order: 1;
       opacity: .3;
+      right: 1em;
       z-index: 10;
-      transform: scale(.75);
+      transform: scale(0);
+      width: 0;
+      @media (min-width:@screen-md-min) {
+        transform: scale(.85);
+        width: 33.33333333%;
+      }
       margin-left: -35px;
       box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.52);
     }
@@ -319,29 +361,26 @@ header {
   }
   ul.navbar-nav {
     li {
-      &:hover, &:focus {
-        &:after {
-          content: "";
-          position: absolute;
-          right: 92%;
-          bottom: 7px;
-          width: 0;
-          height: 0;
-          @media (min-width: @screen-sm-min) {
+      @media (min-width: @screen-sm-min) {
+        &:hover, &:focus, &.active {
+          &:after {
+            content: "";
+            position: absolute;
+            transform: rotate(180deg);
+            bottom: 0px;
+            width: 0;
+            height: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
             border-style: solid;
             border-width: 5px 5px 0 5px;
             border-color: #cb422d transparent transparent transparent;
             transition: all 0.3s linear;            
           }
         }
-        @media(min-width: @screen-sm-min) {
-          &:after, &:focus {
-            right: 47%;
-            bottom: 7px;
-          }
-        }
       }
-      .navbar-hover {
+      & > a {
         font-family: 'Open Sans', sans-serif;
         font-size: 1.2rem;
         text-transform: uppercase;
@@ -352,8 +391,12 @@ header {
           letter-spacing: 0;
           padding: 15px 8px;
         }
-        @media (min-width: @screen-lg-min) {
+        @media (min-width:@screen-md-min) {
           font-size: 1.1rem;
+          letter-spacing: 0;
+          padding: 15px 16px;
+        }
+        @media (min-width: @screen-lg-min) {
           letter-spacing: .7px;
           padding: 15px 25px;
         }
@@ -376,6 +419,9 @@ header {
       p {
         color: #fff;
       }
+    }
+    .embed-responsive {
+      box-shadow: 15px 15px 26px 0px rgba(0,0,0,0.75);
     }
   }
 }
@@ -433,21 +479,12 @@ header {
   .slide-focus {
     &:not(.bgc-blue) {
       & > article {
-        .row-flex {
+        .mb-xs {
           order: -1;
           @media(min-width:@screen-sm-min) {
             order: 0;
           }
         }
-      }
-    }
-    img {
-      max-width: 100%;
-      padding: 0 15px;
-      @media(min-width:@screen-sm-min) {
-        width: 100%;
-        padding: 0;
-        margin-right: 4rem;
       }
     }
     article {
@@ -456,6 +493,11 @@ header {
         margin-bottom: 3rem;
         @media(min-width: @screen-sm-min) {
           margin-bottom: 0;
+        } 
+        @media(min-width: @screen-lg-min) {
+          .img-grow {
+            width: 50%;
+          }
         }
       }
       @media (min-width:@screen-sm-min) {
@@ -471,14 +513,14 @@ footer {
   padding-bottom: 2rem;
   text-align: center;
   color: darken(@greyLight, 35%);
-  @media(min-width:@screen-md-min) {
+  @media(min-width:@screen-lg-min) {
     text-align: left;
   }
   div[class^="col-"] {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    @media(min-width:@screen-md-min) {
+    @media(min-width:@screen-lg-min) {
       padding-right: 4rem !important;
       padding-left: 4rem !important;
       margin-bottom: 0;
@@ -524,6 +566,26 @@ footer {
       margin-bottom: 1.5rem;
       a {
         padding-bottom: 1rem;
+      }
+      &:hover, &:focus {
+        color: @brand-primary;
+      }
+    }
+  }
+  .list-social {
+    & > li {
+      display: table;
+      & > i {
+        display: table-cell;
+        width: 20px;
+      }
+      & > a {
+        display: table-cell;
+      }
+      &:hover, &:focus {
+        i, a { 
+          color: @brand-primary;
+        }
       }
     }
   }
@@ -590,4 +652,14 @@ footer {
       border-radius: 1.5rem;
     }
   }
+}
+
+// ==== HACKS CSS ====
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .fullheight {
+      height: auto;
+      min-height: auto;
+      padding: 8rem 0;
+    }
 }
