@@ -150,6 +150,15 @@ img {
 /**************** CLASS ****************/
 /*=====================================*/
 
+.modal-title {
+  text-align: center;
+}
+
+.modal-btn {
+  color: @brand-primary;
+  border-color: @brand-primary;
+}
+
 .roundedImage{
   overflow:hidden;
   border-radius:100px;
@@ -513,7 +522,7 @@ footer {
   padding-bottom: 2rem;
   text-align: center;
   color: darken(@greyLight, 35%);
-  @media(min-width:@screen-lg-min) {
+  @media(min-width:@screen-md-min) {
     text-align: left;
   }
   div[class^="col-"] {
@@ -575,6 +584,10 @@ footer {
   .list-social {
     & > li {
       display: table;
+      margin: 0 auto;
+      @media (min-width: @screen-md-min) {
+        margin: 0;
+      }
       & > i {
         display: table-cell;
         width: 20px;
@@ -588,6 +601,23 @@ footer {
         }
       }
     }
+  }
+  .logo-footer {
+    text-align: center;
+    @media (min-width: @screen-lg-min) {
+      text-align: left;
+    }
+  }
+}
+
+.mentions-legales {
+  h2 {
+    color: @brand-primary;
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+  article {
+    margin-bottom: 3rem;
   }
 }
 /*********** MEDIAS QUERIES *************/

@@ -11854,6 +11854,15 @@ img
 /*=====================================*/
 /**************** CLASS ****************/
 /*=====================================*/
+.modal-title
+{
+    text-align: center;
+}
+.modal-btn
+{
+    color: #cb432d;
+    border-color: #cb432d;
+}
 .roundedImage
 {
     overflow: hidden;
@@ -12408,7 +12417,7 @@ footer
 
     color: #959595;
 }
-@media (min-width: 1600px)
+@media (min-width: 992px)
 {
     footer
     {
@@ -12501,6 +12510,15 @@ footer div[class^='col-'] li:focus
 footer .list-social > li
 {
     display: table;
+
+    margin: 0 auto;
+}
+@media (min-width: 992px)
+{
+    footer .list-social > li
+    {
+        margin: 0;
+    }
 }
 footer .list-social > li > i
 {
@@ -12518,6 +12536,29 @@ footer .list-social > li:hover a,
 footer .list-social > li:focus a
 {
     color: #cb432d;
+}
+footer .logo-footer
+{
+    text-align: center;
+}
+@media (min-width: 1600px)
+{
+    footer .logo-footer
+    {
+        text-align: left;
+    }
+}
+.mentions-legales h2
+{
+    font-size: 3rem;
+
+    margin: 3rem 0;
+
+    color: #cb432d;
+}
+.mentions-legales article
+{
+    margin-bottom: 3rem;
 }
 /*********** MEDIAS QUERIES *************/
 /*plus grand que 375px*/

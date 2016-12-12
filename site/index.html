@@ -6,9 +6,14 @@
 		<meta name="keywords" content="mots, clés, séparés, de, virgules"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="author" content="mettre l'auteur du site"/>
+		<!-- rend IE6 IE7 et IE 8 compatibles avec les balises HTML5 -->
+		<!--[if lte IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 		<title>Omnilive</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i%7CRoboto+Slab:700%7CRoboto:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="icon" type="image/png" href="faviconomnilive.png"/>
 		<script type="application/ld+json">
 			{
 			  "@context": "http://schema.org",
@@ -25,10 +30,7 @@
 			  "description": "TO DO !!!"
 			}
 		</script>
-		<!-- rend IE6 IE7 et IE 8 compatibles avec les balises HTML5 -->
-		<!--[if lte IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		
 	</head>
 
 	<body>
@@ -43,7 +45,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Omnilive</a>
+			      <a class="navbar-brand" href="index.html">Omnilive</a>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -77,28 +79,27 @@
 							<div class="modal-dialog" role="document">
 						    	<div class="modal-content">
 						    		<div class="modal-header">
-						    		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						    		<h4 class="modal-title" id="myModalLabel">Faites nous signe et nous vous recontacterons rapidement</h4>
-						    	</div>
-						    	<div class="modal-body">
-									<form>
-										<div class="form-group">
-									    	<label for="inputText" class="control-label">Nom</label>
-									    	<input type="text" class="form-control" id="inputText" placeholder="entrez votre nom et prénom">
-										</div>
-										<div class="form-group">
-									    	<label for="inputEmail3" class="control-label">Email</label>
-									    	<input type="email" class="form-control" id="inputEmail3" placeholder="entrez votre adresse mail">
-										</div>
-										<div class="form-group">
-									    	<label for="textArea" class="control-label">Votre message</label>
-									    	<textarea id="textArea" class="form-control" rows="8" placeholder="entrez votre message ici"></textarea>
-										</div>
-									</form>
-						    	</div>
-						    	<div class="modal-footer">
-						        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        	<button type="submit" class="btn btn-default">Envoyer</button>
+						    			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						    			<h4 class="modal-title" id="myModalLabel">Faites nous signe et nous vous recontacterons rapidement</h4>
+						    		</div>
+						    		<div class="modal-body">
+										<form>
+											<div class="form-group">
+										    	<label for="inputText" class="control-label">Nom</label>
+										    	<input type="text" class="form-control" id="inputText" placeholder="entrez votre nom et prénom">
+											</div>
+											<div class="form-group">
+										    	<label for="inputEmail3" class="control-label">Email</label>
+										    	<input type="email" class="form-control" id="inputEmail3" placeholder="entrez votre adresse mail">
+											</div>
+											<div class="form-group">
+										    	<label for="textArea" class="control-label">Votre message</label>
+										    	<textarea id="textArea" class="form-control" rows="8" placeholder="entrez votre message ici"></textarea>
+											</div>
+										</form>
+						    		</div>
+						    		<div class="modal-footer">
+						        	<button type="submit" class="btn btn-default modal-btn">Envoyer</button>
 						    	</div>
 						    </div>
 						  </div>
@@ -357,7 +358,7 @@
 		</section> <!-- FIN slide contact -->
 		<footer class="container-fluid">
 			<div class="row-flex">
-				<div class="col-xs-12 col-md-12 col-lg-3">
+				<div class="col-xs-12 col-md-12 col-lg-3 logo-footer">
 					<a class=" js-scrollTo" href="#"><h1>Omnilive</h1></a>
 					<p class="small ls-0">&copy; 2016 Omnilive est un logiciel breveté développé et édité par Current Productions </p>
 				</div> <!-- omnilive -->
@@ -365,7 +366,7 @@
 					<ul>
 						<li><a href="#">CGV</a></li>
 						<li><a href="#">Confidentialité</a></li>
-						<li><a href="#">Mentions légales</a></li>
+						<li><a href="mentionslegales.html">Mentions légales</a></li>
 					</ul>
 				</div> <!-- CGV -->
 				<div class="col-xs-12 col-md col-lg-2">
