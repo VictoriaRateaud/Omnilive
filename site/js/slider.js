@@ -1,14 +1,5 @@
 //slideshow style interval
-var autoSwap = setInterval( swap,3500);
-
-//pause slideshow and reinstantiate on mouseout
-$('ul, span').hover(
-  function () {
-    clearInterval(autoSwap);
-}, 
-  function () {
-   autoSwap = setInterval( swap,3500);
-});
+var autoSwap = setInterval( swap,2500);
 
 //global variables
 var items = [];
@@ -17,11 +8,6 @@ var position = 0;
 var itemCount = $('.carousel li.items').length;
 var leftpos = itemCount;
 var resetCount = itemCount;
-
-//unused: gather text inside items class
-$('li.items').each(function(index) {
-    items[index] = $(this).text();
-});
 
 //swap images function
 function swap(action) {
@@ -84,16 +70,6 @@ function swap(action) {
     }
   }
 }
-
-//next button click function
-$('#next').click(function() {
-  swap('clockwise');
-});
-
-//prev button click function
-$('#prev').click(function() {
-  swap('counter-clockwise');
-});
 
 //if any visible items are clicked
 $('li').click(function() {
